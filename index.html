@@ -71,6 +71,93 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-git基本使用" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/05/30/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" class="article-date">
+  <time class="dt-published" datetime="2023-05-30T07:19:23.000Z" itemprop="datePublished">2023-05-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/05/30/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/">git基本使用</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>A</p>
+<ol>
+<li><p>初始化仓库：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>克隆远程仓库：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone &lt;repository_url&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>添加文件到暂存区：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>提交暂存区的文件到版本库：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;commit_message&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看当前仓库的状态：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看提交历史：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>切换到指定分支：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;branch_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建并切换到新分支：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b &lt;new_branch_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>合并指定分支到当前分支：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;branch_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>拉取远程分支的更新：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>推送本地分支到远程仓库：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin &lt;branch_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建标签：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git tag &lt;tag_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>切换到指定标签：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;tag_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>撤销修改：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -- &lt;file_name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>撤销提交：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git revert &lt;commit_hash&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/05/30/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" data-id="cliabv7md00005ov3ci4phhqk" data-title="git基本使用" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-vim-基本使用命令" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/05/29/vim-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4/" class="article-date">
@@ -231,6 +318,15 @@
 <li>git</li>
 </ol>
 <p>使用vim<a target="_blank" rel="noopener" href="https://spacevim.org/cn/quick-start-guide/">的时候安装插件</a></p>
+<p>后端项目在服务器上直接进行开发，练习vim等软件的使用。前端vue界面在本地实现后部署到服务器上。</p>
+<p>采用前后端分离的方式进行开发。</p>
+<h2 id="Todo功能分析"><a href="#Todo功能分析" class="headerlink" title="Todo功能分析"></a>Todo功能分析</h2><p>登录功能。用户输入用户名密码进行验证完成登录。根据返回的结果显示登录信息。</p>
+<p>注册功能。用户输入用户名和两次确认密码来完成注册功能。需要绑定邮箱号，发送邮件进行验证。</p>
+<p>密码找回功能。用户输入邮箱后找回密码。</p>
+<p>基础todo功能，一个todolisit。设定提醒时间（邮件提醒）。</p>
+<p>准备使用vue，vue路由，vuex，以及elementuiplus来实现上面的需求。</p>
+<p><img src="C:\Users\CIAge\AppData\Roaming\Typora\typora-user-images\image-20230530211903515.png" alt="image-20230530211903515"></p>
+<p>微软界面如下，学习java开发首先模仿别人的项目开始做。</p>
 
       
     </div>
@@ -473,6 +569,10 @@
       <ul>
         
           <li>
+            <a href="/2023/05/30/git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/">git基本使用</a>
+          </li>
+        
+          <li>
             <a href="/2023/05/29/vim-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4/">vim 基本使用命令</a>
           </li>
         
@@ -486,10 +586,6 @@
         
           <li>
             <a href="/2023/05/29/%E5%85%AD%E6%9C%88%E8%A7%84%E5%88%92/">六月规划</a>
-          </li>
-        
-          <li>
-            <a href="/2023/05/25/HexoBasicUse/">HexoBasicUse</a>
           </li>
         
       </ul>
